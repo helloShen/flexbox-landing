@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        opacity: 0.652;
+      }
+
+      .cls-2 {
+        fill: #2f3857;
+      }
+
+      .cls-3 {
+        fill: #ffbcca;
+      }
+
+      .cls-4 {
+        stroke: #2f3857;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #ff61f6;
+      }
+
+      .cls-6 {
+        fill: #428fdf;
+      }
+    </style>
+  </defs>
+  <g id="Group_174800" data-name="Group 174800" transform="translate(-261 -2292)">
+    <rect id="Rectangle_164537" data-name="Rectangle 164537" class="cls-1" width="120" height="120" transform="translate(261 2292)"/>
+    <path id="Path_104499" data-name="Path 104499" class="cls-2" d="M14.869,0,0,38.9,22.8,57.488l6.565-15.742L38.2,20.553Z" transform="translate(319.786 2314.598) rotate(-11)"/>
+    <path id="Path_104498" data-name="Path 104498" class="cls-3" d="M17.755,0,0,46.455,27.221,68.645l7.839-18.8L45.613,24.542Z" transform="translate(292 2313.22) rotate(-11)"/>
+    <line id="Line_6399" data-name="Line 6399" class="cls-4" y1="4.483" x2="11.208" transform="translate(317.925 2339.257)"/>
+    <path id="Path_104497" data-name="Path 104497" class="cls-5" d="M22.145,0,0,57.941,33.951,85.619l9.777-23.445L56.892,30.61Z" transform="translate(262.577 2310.293) rotate(-11)"/>
+    <line id="Line_6400" data-name="Line 6400" class="cls-4" y1="13.45" x2="34.746" transform="translate(264.125 2350.465)"/>
+    <path id="cursor" class="cls-6" d="M32.945,16.08l-13.7,4.337-5.87,13.832a1.391,1.391,0,0,1-2.6-.106L.073,1.831A1.39,1.39,0,0,1,1.941.116l31.132,13.36A1.39,1.39,0,0,1,32.945,16.08Z" transform="translate(295.53 2366.777) rotate(19)"/>
+    <g id="Group_174790" data-name="Group 174790" transform="translate(354.913 2317.051)">
+      <path id="Path_104013" data-name="Path 104013" class="cls-4" d="M5.239,10.225,0,5.112,5.239,0" transform="translate(22.987 9.608) rotate(160)"/>
+      <line id="Line_6401" data-name="Line 6401" class="cls-4" y1="7.528" x2="18.548" transform="translate(0 5.711)"/>
+    </g>
+  </g>
+</svg>
