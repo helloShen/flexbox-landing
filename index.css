@@ -3,6 +3,8 @@
     --text-white: #F9FAF8;
     --light-grey: #E5E7EB;
     --button-blue: #3882F6;
+    --button-blue-darker: #2172f6;
+    --button-blue-lighter: #5994f3;
 }
 
 body {
@@ -41,11 +43,18 @@ body {
     display: flex;
 }
 
-.header .link {
+.header .links a {
     font-size: 18px;
+    background-color: var(--dark-blue);
     color: var(--light-grey);
     text-decoration: none;
     margin: 0 16px;
+    border-bottom: 5px solid var(--dark-blue);
+    display: inline-block;
+}
+
+.header .links a:hover {
+    border-bottom-color: var(--button-blue);
 }
 
 .hero {
@@ -82,14 +91,23 @@ body {
     margin: 8px 0;
 }
 
-.hero .left button {
+.hero .left .button {
+    display: flex;
+}
+
+.hero .left .button a {
     background-color: var(--button-blue);
     color: var(--text-white);
     font-weight: bold;
+    text-decoration: none;
     margin: 8px 0;
     border: 0;
     padding: 8px 24px;
     border-radius: 8px;
+}
+
+.hero .left a:hover {
+    background-color: var(--button-blue-darker);
 }
 
 .info {
@@ -196,17 +214,36 @@ body {
     font-weight: lighter;
 }
 
-.sign-up .right button {
-    width: 140px;
-    height: 36px;
+.sign-up .card .right {
+    width: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+.sign-up .card .right a {
     background-color: var(--button-blue);
     color: var(--text-white);
+    text-decoration: none;
     border: 2px solid var(--text-white);
     border-radius: 8px;
     font-size: 16px;
     font-weight: bold;
+    padding: 8px 24px;
+    display: inline-block;
 }
 
+.sign-up .card .right a:hover {
+    background-color: var(--button-blue-lighter);
+}
+
+    /* background-color: var(--button-blue);
+    color: var(--text-white);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px 0;
+    border: 0;
+    padding: 8px 24px;
+    border-radius: 8px; */
 
 .footer {
     height: 120px;
@@ -219,5 +256,26 @@ body {
 
 .footer .text {
     color: var(--light-grey);
+    display: flex;
+    align-items: center;
 }
+
+.footer div {
+    margin: 0 4px;
+}
+
+.footer .split {
+    margin: 0 16px;
+}
+
+.footer .email {
+    color: var(--text-white);
+    font-weight: bolder;
+}
+
+.footer img {
+    width: 24px;
+    height: 24px;
+}
+
 
