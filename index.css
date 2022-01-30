@@ -1,0 +1,281 @@
+:root {
+    --dark-blue: #1F2937;
+    --text-white: #F9FAF8;
+    --light-grey: #E5E7EB;
+    --button-blue: #3882F6;
+    --button-blue-darker: #2172f6;
+    --button-blue-lighter: #5994f3;
+}
+
+body {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 480px;
+    background-color: var(--dark-blue);
+    color: var(--text-white);
+    padding: 0 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header .bar {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header .links a {
+    font-size: 18px;
+    background-color: var(--dark-blue);
+    color: var(--light-grey);
+    text-decoration: none;
+    margin: 0 16px;
+    border-bottom: 5px solid var(--dark-blue);
+    display: inline-block;
+}
+
+.header .links a:hover {
+    border-bottom-color: var(--button-blue);
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .left {
+    width: 36vw;
+}
+
+.hero .right {
+    width: 480px;
+    height: 240px;
+    text-align: right;
+}
+
+.hero img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero .left .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.hero .left .second-text {
+    font-size: 18px;
+    color: var(--light-grey);
+    margin: 8px 0;
+}
+
+.hero .left .button {
+    display: flex;
+}
+
+.hero .left .button a {
+    background-color: var(--button-blue);
+    color: var(--text-white);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px 0;
+    border: 0;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+.hero .left a:hover {
+    background-color: var(--button-blue-darker);
+}
+
+.info {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 48px 0;
+}
+
+.info .grid-box {
+    flex: 1;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info .grid-box .grid {
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info .grid-box .grid .img-box {
+    width: 150px;
+    height: 150px;
+    /* border: 5px solid var(--button-blue); */
+    border-radius: 16px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .grid-box .grid .text {
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.quote {
+    height: 480px;
+    background-color: var(--light-grey);
+    padding: 0 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--dark-blue);
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.sign-up {
+    height: 360px;
+    padding: 0 12vw;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up .card {
+    height: 160px;
+    background-color: var(--button-blue);
+    border-radius: 8px;
+    padding: 0 10vw;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up .card .left {
+    margin-right: 5vw;
+}
+
+.sign-up .card .left .main-text {
+    color: var(--text-white);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.sign-up .card .left .second-text {
+    color: var(--light-grey);
+    font-weight: lighter;
+}
+
+.sign-up .card .right {
+    width: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+.sign-up .card .right a {
+    background-color: var(--button-blue);
+    color: var(--text-white);
+    text-decoration: none;
+    border: 2px solid var(--text-white);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 24px;
+    display: inline-block;
+}
+
+.sign-up .card .right a:hover {
+    background-color: var(--button-blue-lighter);
+}
+
+    /* background-color: var(--button-blue);
+    color: var(--text-white);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px 0;
+    border: 0;
+    padding: 8px 24px;
+    border-radius: 8px; */
+
+.footer {
+    height: 120px;
+    background-color: var(--dark-blue);
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .text {
+    color: var(--light-grey);
+    display: flex;
+    align-items: center;
+}
+
+.footer div {
+    margin: 0 4px;
+}
+
+.footer .split {
+    margin: 0 16px;
+}
+
+.footer .email {
+    color: var(--text-white);
+    font-weight: bolder;
+}
+
+.footer img {
+    width: 24px;
+    height: 24px;
+}
+
+

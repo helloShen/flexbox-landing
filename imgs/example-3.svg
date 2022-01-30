@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="121" viewBox="0 0 122 121">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #2f3857;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #ff61f6;
+      }
+
+      .cls-5 {
+        fill: #f7f7f7;
+        stroke: #2f3857;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff61f6"/>
+      <stop offset="1" stop-color="#fa0f00"/>
+    </linearGradient>
+  </defs>
+  <g id="dt_componentsicon03_120" transform="translate(-838 -2335)">
+    <rect id="Rectangle_155453" data-name="Rectangle 155453" class="cls-1" width="120" height="120" transform="translate(840 2335)"/>
+    <g id="Group_161865" data-name="Group 161865" transform="translate(8.797 8.796)">
+      <circle id="Ellipse_23384" data-name="Ellipse 23384" class="cls-2" cx="32.74" cy="32.74" r="32.74" transform="translate(875.504 2354.602) rotate(45)"/>
+      <circle id="Ellipse_23385" data-name="Ellipse 23385" class="cls-3" cx="32.74" cy="32.74" r="32.74" transform="translate(903.903 2326.204) rotate(45)"/>
+      <path id="Intersection_5" data-name="Intersection 5" class="cls-4" d="M9.59,27.492A32.682,32.682,0,0,1,.254.254,32.744,32.744,0,0,1,36.827,36.827a32.915,32.915,0,0,1-4.087.255A32.637,32.637,0,0,1,9.59,27.492Z" transform="translate(871.163 2368.163)"/>
+    </g>
+    <path id="Path_101232" data-name="Path 101232" class="cls-5" d="M812.688,117.313a2.6,2.6,0,0,0-2.61,2.611v1.444l-.075-.005v-4.375a2.6,2.6,0,0,0-2.61-2.611,2.561,2.561,0,0,0-2.511,2.56v4.071l-.075-.005v-6.275a2.6,2.6,0,0,0-2.61-2.611,2.561,2.561,0,0,0-2.511,2.56v5.97l-.092-.006V104.56a2.6,2.6,0,0,0-2.611-2.611,2.561,2.561,0,0,0-2.511,2.56v23l-6.8-8.4a2.6,2.6,0,0,0-3.672-.386,2.561,2.561,0,0,0-.34,3.57l9.74,14.633a8.942,8.942,0,0,0,7.437,3.988l6.693.006a7.666,7.666,0,0,0,7.673-7.666v-13.38A2.561,2.561,0,0,0,812.688,117.313Z" transform="translate(137.071 2297.815)"/>
+  </g>
+</svg>
