@@ -236,15 +236,6 @@ body {
     background-color: var(--button-blue-lighter);
 }
 
-    /* background-color: var(--button-blue);
-    color: var(--text-white);
-    font-weight: bold;
-    text-decoration: none;
-    margin: 8px 0;
-    border: 0;
-    padding: 8px 24px;
-    border-radius: 8px; */
-
 .footer {
     height: 120px;
     background-color: var(--dark-blue);

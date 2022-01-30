@@ -1,4 +1,4 @@
-## Flexbox Landing Page
+# Flexbox Landing Page
 ![flexbox](https://img.shields.io/badge/flexbox-1.0-brightgreen) ![css3](https://img.shields.io/badge/css-3.0-brightgreen) ![html5](https://img.shields.io/badge/html-5.0-brightgreen) 
 
 A static landing page using flexbox layout. If you are learning flexbox layout, this is a quite good tiny-project to get your hands dirty.
